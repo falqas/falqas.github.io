@@ -1,4 +1,3 @@
-```ts
 // Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 // Example 1:
@@ -20,10 +19,9 @@
 // -109 <= nums[i] <= 109
 
 var containsDuplicate = function (nums) {
-  var hist = {}
-  nums.forEach((num) => {
-    hist[num] ? (hist[num] += 1) : (hist[num] = 1)
-  })
-  return Object.values(hist).some((val) => val > 1)
-}
-```
+    var hist = {};
+    nums.forEach((num) => {
+        hist[num] ? (hist[num] += 1) : (hist[num] = 1);
+    });
+    return Object.values(hist).some((val) => val > 1);
+};
