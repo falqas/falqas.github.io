@@ -1,3 +1,4 @@
+
 Creative coding - what a cool concept! 
 p5js -
 creative coding - opposite tetris (sirtet)
@@ -100,3 +101,7 @@ function draw() {
   
 }
 ```
+
+Next goal for site: 
+- Less generic design, something more fun
+- Change path (/quartz -> base path)
