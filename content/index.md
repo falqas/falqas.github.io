@@ -1,9 +1,3 @@
 ---
-
-title: Welcome to me
-
+title: Welcome, friend
 ---
-
-  
-
-Howdy!
