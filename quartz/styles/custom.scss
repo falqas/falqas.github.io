@@ -1,1 +1,11 @@
-// put your custom CSS here!
+body {
+  background-image: url("/static/bg.png");
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Modern TwoSxtn ITC Std";
+  src: url("/static/Modern TwoSxtn ITC Std Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}

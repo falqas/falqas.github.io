@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -7,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      // GitHub: "https://github.com/jackyzha0/quartz",
+      // GitHub: "https://github.com/falqas",
       // "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
@@ -20,13 +21,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.Darkmode(),
+    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 3,
+        filter: (f) => f.slug! !== "index" && !f.frontmatter?.noindex,
+        linkToMore: "/notes" as SimpleSlug,
+      }),
+    ),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Backlinks(),
   ],
 }
 
@@ -37,7 +46,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    // Component.Darkmode(),
   ],
   right: [],
 }

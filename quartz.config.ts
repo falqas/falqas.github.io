@@ -3,18 +3,16 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    // pageTitle: "🪴 Quartz 4.0",
-    pageTitle: " Faisal 3.1",
+    pageTitle: "Working notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    // baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Source Code Pro",
-        body: "Source Code Pro",
+        header: "Libre Baskerville",
+        body: "Libre Franklin",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -37,11 +35,11 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         lightMode: {
-          light: "#fbf1c7",
-          lightgray: "#ebdbb2",
-          gray: "#7c6f64",
-          darkgray: "#3c3836",
-          dark: "#282828",
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
           secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
