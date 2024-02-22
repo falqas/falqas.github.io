@@ -36,6 +36,14 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 3,
+        filter: (f) => f.slug! !== "index" && !f.frontmatter?.noindex,
+        linkToMore: "/notes" as SimpleSlug,
+      }),
+    ),
   ],
 }
 
