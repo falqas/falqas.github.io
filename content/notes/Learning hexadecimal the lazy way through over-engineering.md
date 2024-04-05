@@ -1,16 +1,19 @@
-I was recently tinkering with the source code of some old Nintendo and Sega Genesis video games to implement some fun ROM hacks. Games of that era were primarily written in assembly language that was specific to that hardware architecture (6502 assembly for the NES, 68000 for the Genesis), which requires you to be familiar with hexadecimal notation. I don't use hex notation very often, aside from color values in CSS, so my ability to quickly read and reason through hex values was a bottleneck for me. I thought I could use some more practice - by that I mean, repeated exposure to hex values. 
+I was recently tinkering with the source code of some old Nintendo and Sega Genesis video games to implement some fun ROM hacks. Games of that era were primarily written in assembly language that was specific to that hardware architecture (6502 assembly for the NES, 68000 for the Genesis), which requires you to be familiar with hexadecimal notation. I don't use hex notation very often, aside from color values in CSS, so my ability to quickly read and reason through hex values was a bottleneck for me. I thought I could use some more practice - by that I mean, repeated exposure to hex values.
 
 I thought about all the different ways I encounter numbers in my day to day, and the immediate answer that came to mind was a clock. I had envisioned a simple clock app on the iOS app store that could display time in various formats, ideally as a home screen widget so it would always be on display by default. Nothing too exotic, like [hexadecimal time](https://en.wikipedia.org/wiki/Hexadecimal_time) I just wanted to be able to represent a 24 hour day in hex notation. I looked around the app store to see if there was a clock app I could download...no luck.
 
-Then I remembered my Raspberry Pi clock. I bought it a few years back when I was doing a lot of hardware tinkering. It's basically a Raspberry Pi Zero with a Scroll HAT  ("Hardware Attached on Top") - a programmable board of LEDs that you can solder to your Pi, and can then use to spell out different things. It's in a little robot-shaped case, and it looks less ridiculous than it sounds: 
+Then I remembered my Raspberry Pi clock. I bought it a few years back when I was doing a lot of hardware tinkering. It's basically a Raspberry Pi Zero with a Scroll HAT ("Hardware Attached on Top") - a programmable board of LEDs that you can solder to your Pi, and can then use to spell out different things. It's in a little robot-shaped case, and it looks less ridiculous than it sounds:
+
 ![[Pasted image 20240320152749.png]]
+
 I figured I would set this up in my living room, and it could be a fun way to mindlessly familiarize myself with hexadecimal notation.
 
-I also realized that simply using an unfamiliar time notation would annoy the bejesus out of everyone else around me (see also: [the Metronome art exhibit in New York City](https://en.wikipedia.org/wiki/Metronome_(public_artwork))) who, at best wouldn't understand it (what is 0A:30?), and at worst would misinterpret the value (the hex value 10:26 translates to 16:38 in decimal - that means 4:38pm, and not 10:26am.)
+I also realized that simply using an unfamiliar time notation would annoy the bejesus out of everyone else around me (see also: [the Metronome art exhibit in New York City](<https://en.wikipedia.org/wiki/Metronome_(public_artwork)>)) who, at best wouldn't understand it (what is 0A:30?), and at worst would misinterpret the value (the hex value 10:26 translates to 16:38 in decimal - that means 4:38pm, and not 10:26am.)
 
 To minimize confusion, I set the time to switch between hexadecimal and decimal every five seconds. I also added minor formatting tweaks to make it easier to tell which version you're looking at; hexadecimal uses a blockier font, and lacks a separator between the hours and minutes values.
 
 And here's what it looks like:
+
 ![[trim.21CD6192-2A36-4381-859F-488624E73B10.gif]]
 
 Behold, the code:
@@ -185,5 +188,6 @@ while True:
 
 Now you can successfully confuse your friends and family with your weird way of telling time.
 
-And as the sign at [Recurse Center](https://www.recurse.com/)reads: 
+And as the sign at [Recurse Center](https://www.recurse.com/) reads:
+
 ![[Pasted image 20240405134737.png]]
