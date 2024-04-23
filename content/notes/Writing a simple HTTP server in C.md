@@ -1,3 +1,7 @@
+---
+date: 2024-02-21
+---
+
 As a web developer, I haven't worked much with a systems language, like C or Rust - but I've always wanted to, and I know many other web devs feel the same.
 
 I thought a fun project to work on would be to implement a simple web server, without the help of any libraries like those provided by Node.js. During my time at RC I was finally able to make this a reality, and learned that, while challenging, it wasn't too difficult to implement.

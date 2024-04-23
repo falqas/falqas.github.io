@@ -1,3 +1,7 @@
+---
+date: 2024-04-05
+---
+
 I was recently tinkering with the source code of some old Nintendo and Sega Genesis video games to implement some fun ROM hacks. Games of that era were primarily written in assembly language that was specific to that hardware architecture (6502 assembly for the NES, 68000 for the Genesis), which requires you to be familiar with hexadecimal notation. I don't use hex notation very often, aside from color values in CSS, so my ability to quickly read and reason through hex values was a bottleneck for me. I thought I could use some more practice - by that I mean, repeated exposure to hex values.
 
 I thought about all the different ways I encounter numbers in my day to day, and the immediate answer that came to mind was a clock. I had envisioned a simple clock app on the iOS app store that could display time in various formats, ideally as a home screen widget so it would always be on display by default. Nothing too exotic, like [hexadecimal time](https://en.wikipedia.org/wiki/Hexadecimal_time) I just wanted to be able to represent a 24 hour day in hex notation. I looked around the app store to see if there was a clock app I could download...no luck.
