@@ -6,7 +6,10 @@ const config: QuartzConfig = {
     pageTitle: "Faisal Al Qasimi",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "plausible",
+    },
+    baseUrl: "falqas.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
