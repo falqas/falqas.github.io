@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Working notes",
+    pageTitle: "Faisal Al Qasimi",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Libre Baskerville",
+        header: "Modern TwoSxtn ITC Std",
         body: "Libre Franklin",
         code: "IBM Plex Mono",
       },
@@ -39,7 +39,7 @@ const config: QuartzConfig = {
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
+          dark: "#5c534b",
           secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",

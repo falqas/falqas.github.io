@@ -1,7 +1,8 @@
 .recent-notes {
   & > h3 {
     margin: 0.5rem 0 0 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: "Modern TwoSxtn ITC Std"; // "Recent Notes" header
   }
 
   & > ul.recent-ul {
@@ -12,12 +13,15 @@
     & > li {
       margin: 1rem 0;
       .section > .desc > h3 > a {
+        font-family: "Libre Franklin"; // Actual note title
         background-color: transparent;
+        font-size: 1rem;
       }
 
       .section > .meta {
         margin: 0 0 0.5rem 0;
         opacity: 0.6;
+        font-size: 1rem;
       }
     }
   }
