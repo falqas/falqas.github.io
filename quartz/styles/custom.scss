@@ -1,3 +1,4 @@
+@use "./base.scss";
 body {
   background-image: url("/static/bg.png");
   margin: 0;
@@ -9,3 +10,5 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+// put your custom CSS here!
