@@ -2,7 +2,7 @@
 date: 2024-06-06
 ---
 
-When my wife and I were expecting our first child, we spent a lot of time reading parenting forums with two laptops - one for browsing, and one for looking up the various acronyms and code words. These ranged from the confusing (POAS = "pee on a stick", ie "take a pregnancy test"), to the juvenile (embabies = "embryos"), to the just plain awful (DH = "Dearest Husband").
+When my wife and I were expecting our first child, we spent a lot of time reading parenting forums with two laptops - one for browsing, and one for looking up the various acronyms and code words. These ranged from the needlessly confusing (LOs = "kids", i.e. "little ones"), to the juvenile (embabies = "embryos") ~to the just plain awful (DH = "Dear Husband"~ Edit: the [history behind DH](https://en.wikipedia.org/wiki/Dear_husband) is absolutely fascinating - thank you [Lindsey!](https://decomposition.al/))
 
 At best, coded language like this is just harmless & silly, but at worst it can come across as gatekeeping and unwelcoming.
 
